@@ -1,34 +1,56 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Collaborative Issue Tracker
 
-## Getting Started
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-First, run the development server:
+## Overview
+
+The Collaborative Issue Tracker is a full-stack web application developed to streamline collaboration among multiple users in tracking and resolving issues. It is built using Next.js 14, Prisma, Tailwind CSS, TypeScript, Radix UI, and NextAuth for authentication.
+
+## Features
+
+- **User Authentication:** Secure authentication with NextAuth for controlled user access.
+
+- **Real-time Collaboration:** API endpoints for seamless data exchange, ensuring real-time updates.
+
+- **Database Management:** Utilizes Prisma for efficient and reliable database management.
+
+- **Responsive Design:** Radix UI components and Tailwind CSS for a user-friendly and responsive interface.
+
+- **Collaborative Issue Tracking:** Users can efficiently raise and track issues collaboratively.
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/collaborative-issue-tracker.git
+   
+2. Navigate to the project directory:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+
+cd collaborative-issue-tracker
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3.Install dependencies:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+npm install
+```
 
-## Learn More
+## Usage
 
-To learn more about Next.js, take a look at the following resources:
+  Start the development server:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+    npm run dev
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+  - This will launch the application on http://localhost:3000 in your browser.
 
-## Deploy on Vercel
+  - Log in using your credentials.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+  - Explore the collaborative issue tracking features.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Contributing
+
+Feel free to contribute to the project. Follow the contribution guidelines.
